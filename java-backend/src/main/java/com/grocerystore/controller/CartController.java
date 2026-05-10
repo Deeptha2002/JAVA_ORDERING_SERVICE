@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/cart")
+@RequestMapping("/cart")
 @CrossOrigin(origins = "*")
 public class CartController {
 
