@@ -5,7 +5,6 @@ import LoginView from './views/LoginView'
 import UserHomeView from './views/UserHomeView'
 import AdminView from './views/AdminView'
 import ManagerView from './views/ManagerView'
-import './App.css'
 
 function App() {
   const userRole = localStorage.getItem('userRole')
