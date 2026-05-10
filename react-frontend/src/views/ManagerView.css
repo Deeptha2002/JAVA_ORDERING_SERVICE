@@ -1,0 +1,48 @@
+.manager-view {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.manager-container {
+  padding: 30px 20px;
+}
+
+.manager-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.product-item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-info strong {
+  display: block;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.product-info p {
+  margin: 3px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.product-actions {
+  display: flex;
+  gap: 10px;
+}
